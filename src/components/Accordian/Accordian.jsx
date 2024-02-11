@@ -2,9 +2,6 @@ import { useState } from "react";
 import data from "./data";
 import "./Style.css"
 
-// There are two types of accordian:  Single selection and multiple selection
-
-// Single selection accordian
 const Accordian = () => {
   const [selected, setSelected] = useState(null);
 
